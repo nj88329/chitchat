@@ -1,0 +1,25 @@
+.Lefttalk{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    border-bottom: 1px solid lightgrey;
+    cursor:pointer;
+}
+
+.Lefttalk:hover{
+    background-color:lightblue;
+    color:white;
+}
+
+
+.Lefttalk_info{
+    margin-left:15px;
+    position:relative;
+    width:100%;
+}
+
+.Lefttalk_info > small{
+    position: absolute;
+    top:5px;
+    right:0;
+}

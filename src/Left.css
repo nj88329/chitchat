@@ -1,0 +1,44 @@
+.Left{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    background-color:lightcyan;
+    border-right: 1px solid lightgrey;
+    width:30%;
+  }
+  
+  .Left_header{
+    display:flex;
+    align-items:center;
+    padding:10px;
+    height:50px;
+  }
+  .Left_avatar{
+      cursor: pointer;
+      margin:10px;
+  }
+
+.Left_input{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex:1;
+ background-color:lightcyan;
+ color:gray;
+ border-radius: 5px;
+}
+
+.Left_input > input {
+    border:null;
+    background:transparent;
+}
+
+.Left_input > input{
+    border: none;
+    background: transparent;
+    outline-width:0;
+}
+
+.Left_talks{
+     overflow:scroll;
+}

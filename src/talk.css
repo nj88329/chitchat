@@ -1,0 +1,61 @@
+.talk{
+    display:flex;
+    flex-direction:column;
+    flex:70%;
+    height:100vh;
+
+}
+
+/* .imessage{
+    display:flex;
+    flex-direction:row;
+}
+ */
+
+.talk_header{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.talk_header > h4{
+    font-weight:500 ;
+    color:gray;
+}
+
+.talk_name{
+    color:black;
+}
+
+.talk_input{
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+    border-top:1px solid lightgray;
+    background-color:lightgray;
+}
+
+.talk_input > form{
+    flex:1;
+}
+.talk_messages::-webjit-scrollbar{
+    display:none;
+}
+.talk_messages
+{
+    flex:1;
+    overflow:scroll;
+}
+.talk_input > form > input {
+    width:98%;
+    outline-width:0;
+    border:1px solid lightgray;
+    border-radius:999px;
+    padding:5px;
+}
+
+
+.talk_input > form > button {
+    display:flex;
+}
